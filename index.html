@@ -100,30 +100,88 @@
               >
                 Dashboard
               </button>
-              <button
-                class="nav-link"
-                id="v-pills-Requisition-tab"
-                data-bs-toggle="pill"
-                data-bs-target="#v-pills-Requisition"
-                type="button"
-                role="tab"
-                aria-controls="v-pills-Requisition"
-                aria-selected="false"
-              >
-                Requisition
-              </button>
-              <button
-                class="nav-link"
-                id="v-pills-Jobs-tab"
-                data-bs-toggle="pill"
-                data-bs-target="#v-pills-Jobs"
-                type="button"
-                role="tab"
-                aria-controls="v-pills-Jobs"
-                aria-selected="false"
-              >
-                Jobs
-              </button>
+              <nav id="requisition">
+                <p>Requisition <i class="fas fa-chevron-down"></i></p>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <button
+                    class="nav-link"
+                    id="v-pills-New-Requests-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-New-Requests"
+                    type="button"
+                    role="tab"
+                    aria-controls="v-pills-New-Requests"
+                    aria-selected="false"
+                  >
+                    New Requests (3)
+                  </button>
+                  <button
+                    class="nav-link"
+                    id="v-pills-Open-Requests-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-Open-Requests"
+                    type="button"
+                    role="tab"
+                    aria-controls="v-pills-Open-Requests"
+                    aria-selected="false"
+                  >
+                    Open Requests (4)
+                  </button>
+                  <button
+                    class="nav-link"
+                    id="v-pills-Closed-Requests-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-Closed-Requests"
+                    type="button"
+                    role="tab"
+                    aria-controls="v-pills-Closed-Requests"
+                    aria-selected="false"
+                  >
+                    Closed Requests (6)
+                  </button>
+                </div>
+              </nav>
+              <nav id="jobs">
+                <p>Jobs <i class="fas fa-chevron-down"></i></p>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <button
+                    class="nav-link"
+                    id="v-pills-Open-Jobs-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-Open-Jobs"
+                    type="button"
+                    role="tab"
+                    aria-controls="v-pills-Open-Jobss"
+                    aria-selected="false"
+                  >
+                    Open Jobs (3)
+                  </button>
+                  <button
+                    class="nav-link"
+                    id="v-pills-Closed-Jobs-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-Closed-Jobs"
+                    type="button"
+                    role="tab"
+                    aria-controls="v-pills-Closed-Jobs"
+                    aria-selected="false"
+                  >
+                    Closed-Jobs (4)
+                  </button>
+                  <button
+                    class="nav-link"
+                    id="v-pills-Draft-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-Draft"
+                    type="button"
+                    role="tab"
+                    aria-controls="v-pills-Draft"
+                    aria-selected="false"
+                  >
+                    Draft (6)
+                  </button>
+                </div>
+              </nav>
               <button
                 class="nav-link"
                 id="v-pills-JD-Library-tab"
@@ -186,19 +244,51 @@
             </div>
             <div
               class="tab-pane fade"
-              id="v-pills-Requisition"
+              id="v-pills-New-Requests"
               role="tabpanel"
-              aria-labelledby="v-pills-Requisition"
+              aria-labelledby="v-pills-New-Requests"
             >
-              Requisition
+              New Requests
             </div>
             <div
               class="tab-pane fade"
-              id="v-pills-Jobs"
+              id="v-pills-Open-Requests"
               role="tabpanel"
-              aria-labelledby="v-pills-Jobs-tab"
+              aria-labelledby="v-pills-Open-Requests"
             >
-              Jobs
+              Open Requests
+            </div>
+            <div
+              class="tab-pane fade"
+              id="v-pills-Closed-Requests"
+              role="tabpanel"
+              aria-labelledby="v-pills-Closed-Requests"
+            >
+              Closed Requests
+            </div>
+            <div
+              class="tab-pane fade"
+              id="v-pills-Open-Jobs"
+              role="tabpanel"
+              aria-labelledby="v-pills-Open-Jobs-tab"
+            >
+              Open Jobs
+            </div>
+            <div
+              class="tab-pane fade"
+              id="v-pills-Closed-Jobs"
+              role="tabpanel"
+              aria-labelledby="v-pills-Closed-Jobs-tab"
+            >
+              Closed Jobs
+            </div>
+            <div
+              class="tab-pane fade"
+              id="v-pills-Draft"
+              role="tabpanel"
+              aria-labelledby="v-pills-Draft-tab"
+            >
+              Draft
             </div>
             <div
               class="tab-pane fade"
