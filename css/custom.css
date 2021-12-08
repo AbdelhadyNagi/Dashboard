@@ -1,0 +1,192 @@
+/* Start Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:root {
+  /* Setting Variables */
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+/* ........................................................................... */
+/* Start Header Section */
+header {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 1px, rgba(0, 0, 0, 0.05) 0px 4px 2px,
+    rgba(0, 0, 0, 0.05) 0px 8px 4px, rgba(0, 0, 0, 0.05) 0px 16px 8px,
+    rgba(0, 0, 0, 0.05) 0px 32px 16px;
+}
+header .lan button {
+  border: none;
+  background-color: transparent;
+}
+header .lan button.ar {
+  color: #aaa9a9;
+  border-left: 1px solid #aaa9a9;
+}
+header .user a {
+  padding: 0 5px 0 0;
+  text-decoration: none;
+  color: #ef4246;
+}
+header .user a.user-name {
+  border-right: 1px solid #ef4246;
+}
+header .user a.user-name i {
+  padding: 5px;
+  border: 2px solid #ef4246;
+}
+/* End Header Section */
+/* ........................................................................... */
+/* Start Body Section */
+nav[aria-label="breadcrumb"] {
+  padding-top: 45px;
+  padding-bottom: 5px;
+}
+.breadcrumb li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.breadcrumb li.active {
+  color: #ef4246;
+}
+.breadcrumb li a {
+  text-decoration: none;
+  color: #575757;
+  display: flex;
+  align-items: center;
+}
+.breadcrumb li i {
+  font-size: 5px;
+  margin: 5px;
+}
+.body {
+  border-top: 3px solid black;
+  border-left: 1px solid #dedede;
+  border-right: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+}
+.body .log-data {
+  text-align: center;
+  padding: 35px;
+  border-right: 1px solid #dedede;
+}
+.body .log-data .user-data {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 35%,
+    rgba(242, 242, 242, 1) 35%,
+    rgba(242, 242, 242, 1) 100%
+  );
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+.body .log-data .user-data .img {
+  position: relative;
+  overflow: hidden;
+  border: 5px solid #575757;
+}
+.body .log-data .user-data .img p {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  color: #dedede;
+  background-color: rgba(0, 0, 0, 0.247);
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  transform: translateX(-50%);
+}
+.body .log-data .title h2 {
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 5px;
+}
+.body .log-data .title p {
+  font-size: 14px;
+}
+.body .log-data .title a,
+.body .log-data .title span {
+  color: #ef4246;
+  font-size: 16px;
+}
+.nav-pills .nav-link {
+  color: black;
+  background-color: rgba(242, 242, 242, 1);
+  border-top: 1px solid #dedede;
+  border-radius: 0px;
+  text-align: start;
+  padding: 25px;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #ef4246;
+  background-color: rgba(242, 242, 242, 1);
+}
+.nav-pills .nav-link[disabled] {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+/* End Body Section */
+/* ........................................................................... */
+/* Start Footer Section */
+footer {
+  background-color: #ef4246;
+  color: #fff;
+  text-transform: uppercase;
+}
+footer h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+footer .social {
+  margin: 35px 0;
+}
+footer .social li:not(:first-child) i {
+  font-size: 20px;
+  color: #ef4246;
+  background-color: #fff;
+  padding: 8px;
+}
+footer .social li a {
+  color: #ef4246;
+}
+footer .social li div {
+  width: 36px;
+  height: 36px;
+  font-size: 20px;
+  color: #ef4246;
+  background-color: #fff;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+}
+footer .terms li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+}
+footer .terms li:first-child {
+  margin-right: 55px;
+}
+footer .terms li:not(:first-child) {
+  margin: 0 55px;
+}
+footer .footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* End Footer Section */
+/* ........................................................................... */
